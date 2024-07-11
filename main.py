@@ -911,7 +911,7 @@ def process_file(uploaded_file):
 
 
 # Streamlit UI
-st.title("Curating FUNDS data files")
+st.title("Curating FINFRA 4 data files")
 st.write("Upload your source Excel file to create a destination file based on predefined instructions.")
 
 uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
